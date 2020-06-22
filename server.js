@@ -9,7 +9,7 @@ var Strategy=require('passport-facebook').Strategy;
 passport.use(new Strategy({
     clientID: "272075470780507",
     clientSecret: "5eea9ed96b708fbea0c656a293cbf379",
-    callbackURL: "http://localhost:3000/login/facebook/callback"
+    callbackURL: "https://facebook-node-app.herokuapp.com/login/facebook/callback"
 },
 
 
